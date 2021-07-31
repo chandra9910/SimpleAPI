@@ -14,7 +14,7 @@ namespace SimpleAPI.Tests
             //Act
             var result= weatherForecastController.FetchData(1);
             //Assert
-            Assert.Equal("Chandrashekhar 222",result);
+            Assert.Equal("Chandrashekhar",result);
         }
     }
 }
